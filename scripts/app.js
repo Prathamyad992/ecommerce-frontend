@@ -1,9 +1,9 @@
-console.log("Ecommerce site running");
+console.log("E-Commerce site loaded");
 
 const buttons = document.querySelectorAll("button");
 
-buttons.forEach(btn=>{
-btn.addEventListener("click",()=>{
-alert("Product added to cart");
+buttons.forEach(button => {
+button.addEventListener("click", () => {
+alert("Item added to cart");
 });
 });
